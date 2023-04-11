@@ -1,4 +1,5 @@
 body {
+  overflow-y: scroll;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+i{
+  cursor:pointer;
+}
+
+.card{
+  position:relative;
+  padding-bottom: 20px;
+}
+.goDown{
+  position:absolute;
+  bottom:10%;
 }
