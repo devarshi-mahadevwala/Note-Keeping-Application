@@ -1,6 +1,6 @@
 {
   "name": "inotebook",
-  "homepage": "http://devarshi-mahadevwala.com/Note-Keeping-Application",
+  "homepage": "http://devarshi-mahadevwala.github.io/Note-Keeping-Application",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "browserify": "^17.0.0",
     "concurrently": "^8.0.1",
-    "gh-pages": "^5.0.0",
     "polyfills": "^2.1.1",
     "querystring-es3": "^0.2.1",
     "react": "^18.2.0",
@@ -45,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
