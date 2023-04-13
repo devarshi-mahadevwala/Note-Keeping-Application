@@ -1,8 +1,9 @@
 import './App.css';
 import {
-  BrowserRouter as Router,
+  // BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  HashRouter
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -28,7 +29,7 @@ function App() {
   return (
     <>
       <NoteState>
-        <Router basename='/Note-Keeping-Application'>
+        <HashRouter> {/* basename='/Note-Keeping-Application' */}
           <Navbar />
           <Alert alert={alert}/>
           <div className="container">
@@ -39,7 +40,7 @@ function App() {
               <Route exact path="/signup" element={<Signup showAlert={showAlert}/>}></Route>
             </Routes>
           </div>
-        </Router>
+        </HashRouter>
       </NoteState>
     </>
   );
