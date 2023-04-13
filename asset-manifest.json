@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Note-Keeping-Application/static/css/main.34653989.css",
+    "main.js": "/Note-Keeping-Application/static/js/main.448f8358.js",
+    "static/js/787.e1e25ce8.chunk.js": "/Note-Keeping-Application/static/js/787.e1e25ce8.chunk.js",
+    "index.html": "/Note-Keeping-Application/index.html",
+    "main.34653989.css.map": "/Note-Keeping-Application/static/css/main.34653989.css.map",
+    "main.448f8358.js.map": "/Note-Keeping-Application/static/js/main.448f8358.js.map",
+    "787.e1e25ce8.chunk.js.map": "/Note-Keeping-Application/static/js/787.e1e25ce8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34653989.css",
+    "static/js/main.448f8358.js"
+  ]
+}
